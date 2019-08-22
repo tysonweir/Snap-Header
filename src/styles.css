@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  scroll-snap-type: y mandatory;
+}
+
+.section1 {
+  scroll-snap-align: start;
+  background-color: #24fe53;
+  text-align: center;
+  height: 50vh;
+  font-size: 12rem;
+}
+.section2 div {
+  background-color: hotpink;
+  border: 3px solid;
+  border-color: white;
+  font-size: 12rem;
+  text-align: center;
+  scroll-snap-align: start;
+  height: auto;
+}
